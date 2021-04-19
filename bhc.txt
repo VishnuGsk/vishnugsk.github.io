@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<center><title>BORIS HEALTHCARE </title></center>
+</head>
+<body >
+
+
+<center><h1 style= "font-size:80; color:black ; font-family:verdana;"> BORIS HEALTH CARE  </h1></center>
+<h2 ><center> Passion For Better Healthcare</center> </h2>
+<h1 style="color:black;"> About Us </h1>
+<p style="font-size:50;">Boris Health care is a powerful combination of skills
+<br>and resources that provides a platform for delivering
+<br>strong growth in today's rapidly changing healthcare
+<br>environment.
+<br>The company benefits from the noble guidance and
+<br>leadership of its Managing Directors, M.Ganesan and
+<br>Dr.R.Ravi,M.Pharm,Ph.D; we are professionally managed
+<br>by a team of highly qualified, committed and dedicated
+<br>technocrat.
+<br>Our head office is located in Tamil nadu, India.
+</p>
