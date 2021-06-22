@@ -1,0 +1,192 @@
+*{
+    margin:0
+    padding:0
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{background-color: rgb(255, 250, 250);
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+    line-height: 1.6
+    
+
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    
+    /* css for smooth scroll  */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background:  rgba(233, 41, 41,0.8);;
+    position: fixed;
+    top:0;
+    display:flex;
+    width:100%;
+    height: 1cm;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    width:100%;
+    justify-content: center;
+
+
+
+
+}
+.navbar ul li {
+margin-left: 1cm ;
+margin-top: -0.3cm;
+
+}
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0cm;
+
+}
+.navbar ul li a:hover{
+    color: lightsalmon;
+}
+section{
+    display: flex;
+    flex-direction: column;
+     align-items: left;
+    justify-content:center;
+    width:100%;
+    height:100vh;
+    background-image: url(background1.jpg)  ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 1cm;
+
+
+}
+section h1{
+    font-size: 2cm;
+    margin-left: 1.5cm;
+    margin-top: 3cm;
+    color:rgb(40, 3, 109);
+
+}
+
+section p {
+    margin-top:-2cm;
+    margin-left: 1.5cm;
+    font-size :200%; 
+    color:rgb(40, 3, 109);}
+    
+    
+    
+section#home{
+
+    align-items: flex-start;
+    justify-content: left ;
+}
+section#home h1 {
+    margin-top: 1cm;
+}
+section#about_us h1{
+    margin-top: -1cm; 
+}
+section#our_vision h1{
+    margin-top: -1cm; 
+}section#key_person h1{
+    margin-top: 4cm; 
+}
+section#key_person h3{
+    font-size: 50px;
+
+    margin-top: -1cm;
+    margin-left: 1.5cm;
+    color:rgb(40, 3, 109)
+    
+}section#diagnostic_kit h1{
+    margin-top: -7cm; 
+}section#surgical_disposal h1{
+    margin-top: 1cm; 
+}
+section#marine_products h1{
+    margin-top: -10cm; 
+}
+section#contact_us h1{
+    margin-top: -4cm; 
+}
+section#our_bus h1{
+    margin-top: 1cm; 
+
+}
+section#our_bus{
+    line-height: 1cm;
+}
+.slideshow { 
+    width: 700px;
+    height: 400px;
+    background:url('cassete main.jpg');
+    animation:slide 9s infinite;
+    position: relative;
+    left:1cm;
+    top: 25px;
+    box-shadow: 1px 2px 20px red;
+    }
+    @keyframes slide {
+    0% {background:url('cassete main.jpg');background-size: 100% 100%;}
+    25% {background:url('pregancy\ test\ \ main.jpg');background-size: 100% 100%;}
+    55% {background:url('ovulation\ kit\ man.jfif') ;background-size: 100% 100%;}
+    75% {background:url('aliginate.jpg');background-size: 100% 100%; }
+    } 
+    /* section#key_person h1{
+        margin-top:10cm;
+    } */
+    
+    .dropbtn {
+  
+        margin-top: 3cm;
+        padding: 0.3cm;
+        font-size: 16px;
+        border: none;
+        position: relative;
+        left: 400px;
+      }
+      
+      .dropdown {
+       
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: relative;
+        top:-3.6cm;
+        left: 0.01cm;
+        background-color:rgba(233, 41, 41,0.8);;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color:white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      } 
+      
+      
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn   
+
+
